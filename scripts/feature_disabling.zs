@@ -301,13 +301,13 @@ tag.remove(<item:quark:pink_blossom_sapling>);
 tag.remove(<item:quark:yellow_blossom_sapling>);
 tag.remove(<item:quark:red_blossom_sapling>);
 
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:fisherman>, 2, <item:architects_palette:cod_log>);
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:fisherman>, 2, <item:architects_palette:salmon_log>);
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:armorer>, 2, <item:architects_palette:plating_block>);
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:toolsmith>, 2, <item:architects_palette:pipe>);
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:shepherd>, 2, <item:architects_palette:spool>);
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:mason>, 1, <item:architects_palette:limestone>);
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:mason>, 1, <item:architects_palette:olivestone_bricks>);
+villagerTrades.removeBasicTrade(<profession:minecraft:fisherman>, 2, <item:architects_palette:cod_log>);
+villagerTrades.removeBasicTrade(<profession:minecraft:fisherman>, 2, <item:architects_palette:salmon_log>);
+villagerTrades.removeBasicTrade(<profession:minecraft:armorer>, 2, <item:architects_palette:plating_block>);
+villagerTrades.removeBasicTrade(<profession:minecraft:toolsmith>, 2, <item:architects_palette:pipe>);
+villagerTrades.removeBasicTrade(<profession:minecraft:shepherd>, 2, <item:architects_palette:spool>);
+villagerTrades.removeBasicTrade(<profession:minecraft:mason>, 1, <item:architects_palette:limestone>);
+villagerTrades.removeBasicTrade(<profession:minecraft:mason>, 1, <item:architects_palette:olivestone_bricks>);
 
 warping.removeRecipe(<item:architects_palette:twisted_log>);
 warping.removeRecipe(<item:architects_palette:twisted_sapling>);
@@ -519,6 +519,9 @@ stoneCutter.removeRecipe(<item:charm:refined_obsidian_wall>);
 var tag_carpets = <tag:items:minecraft:carpets>;
 tag_carpets.remove(<item:farmersdelight:full_tatami_mat>);
 tag_carpets.remove(<item:farmersdelight:half_tatami_mat>);
+
+villagerTrades.removeWanderingTrade(1, <item:supplementaries:flax_seeds>);
+
 
 craftingTable.removeRecipe(<item:comforts:sleeping_bag_white>);
 craftingTable.removeRecipe(<item:comforts:sleeping_bag_orange>);
