@@ -15,7 +15,7 @@ blacklisted_files = [
 	'config/sodium-options.json'
 ]
 
-server_files_to_copy = ['setup_server.bat', 'setup_server.sh']
+server_files_to_copy = ['setup_server.bat', 'setup_server.sh', 'SERVER_README.txt']
 server_mods_blacklist = [
 	401648, # BetterF3
 	440465, # Panorama

@@ -59,6 +59,7 @@ var gooseberry_jam = <item:bayou_blues:gooseberry_jam>;
 var gooseberry_jam_cookie = <item:bayou_blues:gooseberry_jam_cookie>;
 var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
 var honeycomb = <item:minecraft:honeycomb>;
+var honey_bottle = <item:minecraft:honey_bottle>;
 var ice_bricks = <item:environmental:ice_bricks>;
 var infernal_painting = <item:infernalexp:infernal_painting>;
 var ink = <item:minecraft:ink_sac>;
@@ -107,6 +108,7 @@ var soul_lantern = <item:minecraft:soul_lantern>;
 var spruce_sapling = <item:minecraft:spruce_sapling>;
 var spyglass = <item:farsight_spyglasses:spyglass>;
 var stick = <item:minecraft:stick>;
+var sticky_piston = <item:minecraft:sticky_piston>;
 var stone_bricks = <item:minecraft:stone_bricks>;
 var strawberries = <item:neapolitan:strawberries>;
 var strawberry_cookie = <item:cookielicious:strawberry_cookie>;
@@ -316,13 +318,11 @@ craftingTable.addShaped("blank_acacia_totem",
 
 // Canvas for Infernal Painting
 craftingTable.removeRecipe(infernal_painting);
-/* Temporarily off
 craftingTable.addShaped("canvas_infernal_painting", 
 		infernal_painting, 
 		[[blaze_rod, stick, blaze_rod], 
 		[stick, canvas, stick], 
 		[blaze_rod, stick, blaze_rod]]);
-*/
 
 // Consistent cookies
 craftingTable.removeRecipe(gooseberry_jam_cookie);
@@ -389,6 +389,12 @@ craftingTable.addShaped("seed_pouch_leather",
 		[leather, seed_pouchable, leather],
 		[air, leather, air]]);
 
+// Honey Sticky Piston
+craftingTable.addShaped("honey_sticky_piston",
+		sticky_piston,
+		[[honey_bottle],
+		[piston]]);
+
 // Conflicting lattice recipe fix
 craftingTable.removeRecipe(lattice);
 craftingTable.addShaped("lattice_fix",
@@ -410,7 +416,7 @@ craftingTable.addShaped("comforts_real_rope_and_nail",
 		rope_and_nail * 2,
 		[[rope, iron_ingot],
 		[iron_ingot, rope]]);
-		
+
 // Blossom trees recipes
 craftingTable.addShapeless("sweet_sapling", sweet_sapling, [mimicream, cherry_sapling]);
 craftingTable.addShapeless("fiery_sapling", fiery_sapling, [mimicream, flowering_redbud_sapling]);
