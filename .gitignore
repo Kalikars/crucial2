@@ -9,6 +9,7 @@
 !/packmenu/
 !/ship/
 !/.gitignore
+!SERVER_README.txt
 /ship/output
 /config/sodium-options.json
 *.pyc

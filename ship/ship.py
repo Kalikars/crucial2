@@ -15,14 +15,15 @@ blacklisted_files = [
 	'config/sodium-options.json'
 ]
 
-server_files_to_copy = ['setup_server.bat', 'setup_server.sh']
+server_files_to_copy = ['setup_server.bat', 'setup_server.sh', 'SERVER_README.txt']
 server_mods_blacklist = [
 	401648, # BetterF3
 	440465, # Panorama
 	238372, # Neat
 	448233, # Entity Culling
 	460819, # LazyDFU
-	441114  # Neko's Enchanted Books
+	441114, # Neko's Enchanted Books
+	532127  # Legendary Tooltips
 ]
 server_blacklisted_files = [
 	'openloader/resources',

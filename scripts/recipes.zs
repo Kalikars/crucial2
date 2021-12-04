@@ -47,6 +47,7 @@ var dried_vanilla_pods = <item:neapolitan:dried_vanilla_pods>;
 var eggs = <tag:items:forge:eggs>;
 var emerald = <tag:items:forge:gems/emerald>;
 var ender_eye = <item:minecraft:ender_eye>;
+var ender_overseer = <item:botania:ender_eye_block>;
 var ender_pearl = <item:minecraft:ender_pearl>;
 var feather = <tag:items:forge:feathers>;
 var glass_item_frame = <item:quark:glass_item_frame>;
@@ -58,7 +59,9 @@ var gold_ingot = <tag:items:forge:ingots/gold>;
 var gooseberry_jam = <item:bayou_blues:gooseberry_jam>;
 var gooseberry_jam_cookie = <item:bayou_blues:gooseberry_jam_cookie>;
 var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
+var heart_of_diamond = <item:quark:diamond_heart>;
 var honeycomb = <item:minecraft:honeycomb>;
+var honey_bottle = <item:minecraft:honey_bottle>;
 var ice_bricks = <item:environmental:ice_bricks>;
 var infernal_painting = <item:infernalexp:infernal_painting>;
 var ink = <item:minecraft:ink_sac>;
@@ -107,6 +110,7 @@ var soul_lantern = <item:minecraft:soul_lantern>;
 var spruce_sapling = <item:minecraft:spruce_sapling>;
 var spyglass = <item:farsight_spyglasses:spyglass>;
 var stick = <item:minecraft:stick>;
+var sticky_piston = <item:minecraft:sticky_piston>;
 var stone_bricks = <item:minecraft:stone_bricks>;
 var strawberries = <item:neapolitan:strawberries>;
 var strawberry_cookie = <item:cookielicious:strawberry_cookie>;
@@ -135,6 +139,7 @@ var flowering_redbud_sapling = <item:abundance:flowering_redbud_sapling>;
 var orange_maple_sapling = <item:autumnity:orange_maple_sapling>;
 var blue_wisteria_sapling = <item:environmental:blue_wisteria_sapling>;
 var jacaranda_sapling = <item:abundance:jacaranda_sapling>;
+var waystone = <item:waystones:waystone>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -387,6 +392,12 @@ craftingTable.addShaped("seed_pouch_leather",
 		[leather, seed_pouchable, leather],
 		[air, leather, air]]);
 
+// Honey Sticky Piston
+craftingTable.addShaped("honey_sticky_piston",
+		sticky_piston,
+		[[honey_bottle],
+		[piston]]);
+
 // Conflicting lattice recipe fix
 craftingTable.removeRecipe(lattice);
 craftingTable.addShaped("lattice_fix",
@@ -408,7 +419,7 @@ craftingTable.addShaped("comforts_real_rope_and_nail",
 		rope_and_nail * 2,
 		[[rope, iron_ingot],
 		[iron_ingot, rope]]);
-		
+
 // Blossom trees recipes
 craftingTable.addShapeless("sweet_sapling", sweet_sapling, [mimicream, cherry_sapling]);
 craftingTable.addShapeless("fiery_sapling", fiery_sapling, [mimicream, flowering_redbud_sapling]);
@@ -416,3 +427,10 @@ craftingTable.addShapeless("warm_sapling", warm_sapling, [mimicream, orange_mapl
 craftingTable.addShapeless("sunny_sapling", sunny_sapling, [mimicream, aspen_sapling]);
 craftingTable.addShapeless("frosty_sapling", frosty_sapling, [mimicream, blue_wisteria_sapling]);
 craftingTable.addShapeless("serene_sapling", serene_sapling, [mimicream, jacaranda_sapling]);
+
+// Waystone recipe
+craftingTable.addShaped("waystone_player",
+        waystone,
+        [[ender_overseer],
+        [heart_of_diamond],
+        [stone_bricks]]);
