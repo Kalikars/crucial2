@@ -81,7 +81,7 @@
 #Crying obsidian and refined obsidian can be used to construct nether portal frames.
 "MorePortalFrames enabled" = true
 #Villages can spawn in swamps and jungles.
-"MoreVillageBiomes enabled" = true
+"MoreVillageBiomes enabled" = false
 #Playing a record in a jukebox stops background music from playing at the same.
 #Creative music tracks may also play in survival mode.
 "MusicImprovements enabled" = true
@@ -94,7 +94,7 @@
 #Allows crafting from inventory if the player has a crafting table in their inventory.
 "PortableCrafting enabled" = true
 #Allows access to chest contents if the player has an Ender Chest in their inventory.
-"PortableEnderChest enabled" = false
+"PortableEnderChest enabled" = true
 #Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.
 "RaidHorns enabled" = true
 #A lantern that emits light when a redstone signal is received.
@@ -312,7 +312,7 @@
 
 [MusicImprovements]
 	#If true, the six Creative music tracks may play in survival mode.
-	"Play Creative music" = true
+	"Play Creative music" = false
 
 [PlayerState]
 	#Interval (in ticks) on which additional world state will be synchronised to the client.
@@ -324,7 +324,7 @@
 
 [PortableEnderChest]
 	#If true, sets a keybind for opening the portable Ender Chest (defaults to 'b').
-	"Enable keybind" = true
+	"Enable keybind" = false
 
 [RaidHorns]
 	#Volume of the raid horn sound effect when used.  1.0 is maximum volume.

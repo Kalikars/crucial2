@@ -12,7 +12,7 @@ i(<item:quark:backpack>, "When wearing this, you'll have 27 more inventory slots
 i(<item:quark:ravager_hide>, "This drops from Ravagers. Call in a raid to get them over.");
 
 // Toretoise Stuff
-var s = "Toretoises can spawn this. Find them underground and feed them Cave Roots. Iron Rods can pop the ore automatically, or manually by hitting it with a Pickaxe.";
+var s = "Toretoises can spawn this. Find them underground and feed them Cave Roots to generate ore. Harvest by hitting them with a Pickaxe, or use Iron Rods to pop the ore automatically.";
 i(<item:minecraft:iron_ingot>, s);
 i(<item:minecraft:iron_nugget>, s);
 i(<item:minecraft:redstone>, s);
@@ -371,7 +371,7 @@ i(<item:quark:cobbled_deepslate>, "Dropped by Deepslate, which spawns in a large
 i(<item:quark:smooth_basalt>, "This spawns topping the large sheet of Deepslate towards the bottom of the world.");
 
 // Slime Blocks
-s = "Slime blocks will only stick to ones composed of their color or vice versa. (e.g. Red won't stick to Blue, but it'll stick to Magenta, as Magenta contains Red)";
+s = "Slime blocks will only stick to ones composed of their color, or vice versa (e.g. Red won't stick to Blue, but it'll stick to Magenta, as Magenta contains Red).";
 i(<item:minecraft:slime_block>, s);
 i(<item:quark:blue_slime_block>, s);
 i(<item:quark:cyan_slime_block>, s);
@@ -407,10 +407,10 @@ i(<item:autumnity:turkey_egg>, s);
 i(<item:autumnity:turkey_piece>, s);
 
 // Bee Stuff
-s = "Get this by trading with a Beekeeper, can take honey out of hives.";
+s = "Get this by trading with a Beekeeper. Can take honey out of hives.";
 i(<item:buzzier_bees:honey_wand>, s);
 i(<item:buzzier_bees:sticky_honey_wand>, s);
-i(<item:buzzier_bees:honey_pot>, "Stores honey, can take in honeycombs. It's also the Beekeeper villager workstation.");
+i(<item:buzzier_bees:honey_pot>, "Stores honey. Accepts honeycombs to make honey blocks. It's also the Beekeeper villager workstation.");
 
 // Poise Forest Stuff
 i(<item:endergetic:booflo_hide>, "Dropped from Booflos on death or growth. They spawn in the outer end, tame them with Bolloom Fruit, and breed with Poise Clusters.");
@@ -558,7 +558,7 @@ i(<item:minecraft:shulker_shell>, "Endermites can burrow into Purpur blocks, cre
 i(<item:minecraft:cobweb>, "Dropped by Wrapped, which can only spawn on Cobbedstone.");
 
 // Quark Items
-s = "Spawns in the Outer End. Teleports when touched, if touched a mob, can spawn endermites or spread.";
+s = "Spawns in the Outer End. Teleports when touched. If touched by a mob, it can spawn endermites or spread.";
 i(<item:quark:chorus_twist>, s);
 i(<item:quark:chorus_weeds>, s);
 
@@ -566,7 +566,7 @@ s = "Drops from Crabs, which spawn in beaches. Breed them with Wheat, Chicken, o
 i(<item:quark:crab_leg>, s);
 i(<item:quark:crab_shell>, s);
 
-s = "Item frame without a background. Can be right clicked through onto chests, placed onto signs, or serve as wallpaper with banners. Can also update Maps in real time.";
+s = "Item frame without a background. Can be right clicked onto chests, placed onto signs, or serve as wallpaper with banners. Can also update Maps in real time.";
 i(<item:quark:glass_item_frame>, s);
 i(<item:quark:glowing_glass_item_frame>, s);
 
@@ -657,7 +657,7 @@ i(<item:seasonals:sweet_berry_milkshake>, s + "shuffles active effects' levels a
 i(<item:atmospheric:passion_vine_coil>, "Can be thrown. When it lands on a block, it drops down a vine you can climb.");
 i(<item:atmospheric:crustose>, "Can be created by growing Aspen Saplings in a 2x2 pattern.");
 
-i(<item:antiqueatlas:empty_antique_atlas>, "Works as a sort of map that catalogues where you go. Definitely a must have if you're going exploring!");
+i(<item:antiqueatlas:empty_antique_atlas>, "A map that catalogues areas around you. Allows you to pin points of interest. A must have if you're going exploring!");
 
 i(<item:charm:bat_bucket>, "Right-click a bat with an empty bucket to capture it, when you release it, you can see all nearby mobs.");
 i(<item:charm:ender_pearl_block>, "Eating a Chorus Fruit close to one will teleport you to it instead.");
@@ -680,13 +680,13 @@ i(<item:inspirations:collector>, "Pulls items dropped or in inventories in front
 
 i(<item:quark:ender_watcher>, "Emits a redstone signal when looked at by a player. The closer to the middle, the higher the signal.");
 i(<item:quark:feeding_trough>, "Animals can eat and breed from this. If there's over 32 animals in a 10 block radius, they won't breed though!");
-i(<item:quark:gold_button>, "Emits a 2 redstone tick long pulse.");
+i(<item:quark:gold_button>, "Emits a 2 tick long redstone pulse.");
 i(<item:quark:grate>, "Animals can't walk through this, and items fall right through.");
 i(<item:quark:gravisand>, "When given a redstone signal, falls or floats upwards if it can't, also propagates this behavior. Outputs a comparator signal of 15.");
 i(<item:quark:iron_button>, "Emits a 5 second long pulse.");
-i(<item:quark:iron_ladder>, "Can stand without a block behind it as long as at least one ladder above it has one.");
+i(<item:quark:iron_ladder>, "Can stand without a block behind it as long a ladder above is supported.");
 i(<item:quark:iron_rod>, "Breaks any blocks in front when pushed by a piston. Can also be used to mine the ore on a Toretoise.");
-i(<item:quark:magnet>, "Can push or pull metallic blocks when powered. When moved, stonecutters break the block above, and hoppers drop the item in front, or plant, if it's a seed.");
+i(<item:quark:magnet>, "Can push or pull metallic blocks when powered. Moved stonecutters break blocks above them, and hoppers drop items from their spout (or plant, if carrying seeds).");
 i(<item:quark:myalite_crystal>, "Can be found in Spiral Pillars in the outer end. If placed in a line, can redirect any enderman or ender pearl teleportations between the two ends.");
 i(<item:quark:dusky_myalite>, "Can be found in Spiral Pillars in the outer end.");
 i(<item:quark:obsidian_pressure_plate>, "Only players can trigger this.");
@@ -696,10 +696,10 @@ i(<item:quark:redstone_randomizer>, "Randomly repeats the input to the left or r
 i(<item:quark:seed_pouch>, "Can hold 10 stacks of anything plantable. Right click the item onto it to add. Can also place 1 or 3x3 if sneaking. Plantable items have a flowery tooltip for easy identification.");
 i(<item:quark:soul_compass>, "Points to where you last died.");
 i(<item:quark:trowel>, "Randomly places one block from your hotbar, great for paths!");
-i(<item:quark:abacus>, "Right Click a block to set the source - from there, the Abacus will count the distance from the block you're looking at to that one, provided you're holding it.");
-i(<item:quark:crate>, "Can hold up to 1000 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
+i(<item:quark:abacus>, "Right click a block to set a source point; the Abacus will count the distance from the block you're looking at to the source, provided you're holding it.");
+i(<item:quark:crate>, "Can hold up to 1000 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a variety of things.");
 i(<item:quark:chute>, "Can receive items with Hoppers and the like. Any items that end up in it are immediately ejected downwards into the world.");
-i(<item:quark:music_disc_endermosh>, "Can be acquired from chests in End Cities");
+i(<item:quark:music_disc_endermosh>, "Can be acquired from chests in End Cities.");
 
 i(<item:structuredcrafting:structured_crafter>, "When powered, crafts based on the recipe in blocks or items in chests behind it in a 3x3 area.");
 
@@ -723,7 +723,7 @@ i(<item:supplementaries:turn_table>, "While powered, keeps rotating whatever blo
 i(<item:supplementaries:wind_vane>, "Outputs a redstone signal when raining.");
 i(<item:supplementaries:bamboo_spikes>, "Can be placed in any direction. Damages entities that pass through them and deals extra fall damage. Can be tipped with potions.");
 i(<item:supplementaries:bamboo_spikes_tipped>, "Can be placed in any direction. Damages entities that pass through them, deals extra fall damage, and inflicts the potion effect.");
-i(<item:supplementaries:bellows>, "When powered fans fires and furnaces to keep them burning longer or faster. Can also push items with the wind.");
+i(<item:supplementaries:bellows>, "When powered, fans fires/furnaces to keep them burning longer/faster. Can also push items.");
 i(<item:supplementaries:key>, "Can be used to lock Safes. Name it in an anvil before usage.");
 i(<item:supplementaries:rope_arrow>, "Places down ropes wherever it lands so you can climb up.");
 i(<item:supplementaries:pulley_block>, "Can be given ropes or chains. When rotated with a Turn Table, can drop or pull said ropes or chains back up.");
@@ -762,7 +762,7 @@ i(<item:supplementaries:safe>, s);
 i(<item:supplementaries:netherite_door>, s);
 i(<item:supplementaries:netherite_trapdoor>, s);
 
-i(<item:paraglider:paraglider>, "Can be found on Wild Tower chests only. When held, right click to glide.");
+i(<item:paraglider:paraglider>, "Can be found on Wild Tower chests only. Hold in main hand to glide.");
 
 i(<item:conjurer_illager:conjurer_hat>, "This is the trademark accessory of the Conjurer illager, who resides in its theatre, located in Dark Forests. While worn, it keeps Bad Omens away.");
 
@@ -859,7 +859,7 @@ i(<item:storagedrawers:oak_full_drawers_1>, "Can store up to 1000 stacks of any 
 
 i(<item:bundlesplus:bundle>, "Can hold up to 64 items. Right click items on it to add them and right click the Bundle item to remove them.");
 
-s = "Can be used on a block to draw an arrow or a dot, based on which part of the block it's used on. If sneaking, can make a cross instead, is also available in a variety of other colors.";
+s = "Can be used on a block to draw an arrow or a dot, based on which part of the block it's used on. If sneaking, can make a cross instead. Available in a variety of other colors.";
 i(<item:chalk:white_chalk>, s);
 i(<item:chalk:orange_chalk>, s);
 i(<item:chalk:magenta_chalk>, s);

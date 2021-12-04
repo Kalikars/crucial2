@@ -522,7 +522,6 @@ tag_carpets.remove(<item:farmersdelight:half_tatami_mat>);
 
 villagerTrades.removeWanderingTrade(1, <item:supplementaries:flax_seeds>);
 
-
 craftingTable.removeRecipe(<item:comforts:sleeping_bag_white>);
 craftingTable.removeRecipe(<item:comforts:sleeping_bag_orange>);
 craftingTable.removeRecipe(<item:comforts:sleeping_bag_magenta>);
