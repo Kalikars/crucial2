@@ -19,7 +19,7 @@
         },
         {
 			"type": "text",
-			"text": "Inside the chest located in every $(thing)Wild Tower$(), you'll find at least one $(item)Paraglider$() - these can be used when held to glide down slowly and cover vast distances through the air.$(br2)Lastly, please take note that while you can break the $(item)Waystone$(), you $(l)can not harvest it.$() If you try to do so, you'll just destroy it, like a $(item)Monster Spawner$()."
+			"text": "Inside the chest located in every $(thing)Wild Tower$(), you'll find at least one $(item)Paraglider$() - these can be used when held to glide down slowly and cover vast distances through the air.$(br2)Lastly, please take note that while you can break the $(item)Waystone$(), you $(l)can not harvest it.$() If you try to do so, you'll just destroy it, like a $(item)Monster Spawner$(). However, they might be able to be crafted. Maybe try checking $(item)JEI$()?"
 		}
 	]
 }

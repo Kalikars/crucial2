@@ -361,7 +361,7 @@
 	"Replace Scaffolding" = true
 	"Axe Leaf Harvesting" = false
 	"Sign Editing" = true
-	"Dirt To Path" = true
+	"Dirt To Path" = false
 	"Simple Harvest" = true
 	"Hoe Harvesting" = true
 	"Reacharound Placing" = true
