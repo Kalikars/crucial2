@@ -1,5 +1,5 @@
 #Draw a black box behind effect icons
 effect_box = true
 #A list of effects that should not be registered nor shown on JEI
-hidden_effects = ["alexsmobs:bug_pheromones", "alexsmobs:clinging", "alexsmobs:debilitating_sting", "alexsmobs:exsanguination", "alexsmobs:fear", "alexsmobs:oiled", "alexsmobs:poison_resistance", "alexsmobs:tigers_blessing", "seasonals:fall_flavor"]
+hidden_effects = ["alexsmobs:bug_pheromones", "alexsmobs:clinging", "alexsmobs:debilitating_sting", "alexsmobs:exsanguination", "alexsmobs:fear", "alexsmobs:oiled", "alexsmobs:poison_resistance", "alexsmobs:tigers_blessing", "seasonals:fall_flavor", "cofh_core:chilled", "cofh_core:clarity", "cofh_core:enderference", "cofh_core:explosion_resistance", "cofh_core:lightning_resistance", "cofh_core:love", "cofh_core:magic_resistance", "cofh_core:panacea", "cofh_core:shocked", "cofh_core:slimed", "cofh_core:sundered", "cofh_core:wrenched"]
 
