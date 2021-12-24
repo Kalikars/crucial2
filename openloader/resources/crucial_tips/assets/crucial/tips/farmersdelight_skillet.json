@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Farmer's Delight",
+    "bold": true,
+    "color": "light_purple"
+  },
+  "tip": {
+    "text": "When placed on a heat source, a skillet will cook up to a stack of items. It will always eject the items to the right of its handle!"
+  }
+}
