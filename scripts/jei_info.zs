@@ -777,6 +777,7 @@ i(<item:endergetic:music_disc_kilobyte>, "Can be acquired from chests in End Cit
 i(<item:berry_good:music_disc_fox>, "Can be acquired from Foxes, who randomly spawn with it in their mouths.");
 i(<item:infernalexp:music_disc_soul_spunk>, "Is rarely dropped by Embodies, which spawn in Soul Sand Valleys.");
 i(<item:infernalexp:music_disc_flush>, "Is rarely dropped by Glowsquitoes, which spawn in the Glowstone Canyon biome in the Nether.");
+i(<item:neapolitan:music_disc_hullabaloo>, "Much ado about the Chimpanzeee Hullabaloo...");
 
 s = "Can be cooked by placing above a fire or campfire. This will result in a slight loss of fish.";
 i(<item:fish_in_planks:cod_barrel>, s);
@@ -876,6 +877,25 @@ i(<item:chalk:brown_chalk>, s);
 i(<item:chalk:green_chalk>, s);
 i(<item:chalk:red_chalk>, s);
 i(<item:chalk:black_chalk>, s);
+
+s = "Can hold one item, as well as a small message to give to a friend.";
+i(<item:supplementaries:present>, s);
+i(<item:supplementaries:present_white>, s);
+i(<item:supplementaries:present_orange>, s);
+i(<item:supplementaries:present_magenta>, s);
+i(<item:supplementaries:present_light_blue>, s);
+i(<item:supplementaries:present_yellow>, s);
+i(<item:supplementaries:present_lime>, s);
+i(<item:supplementaries:present_pink>, s);
+i(<item:supplementaries:present_gray>, s);
+i(<item:supplementaries:present_light_gray>, s);
+i(<item:supplementaries:present_cyan>, s);
+i(<item:supplementaries:present_purple>, s);
+i(<item:supplementaries:present_blue>, s);
+i(<item:supplementaries:present_brown>, s);
+i(<item:supplementaries:present_green>, s);
+i(<item:supplementaries:present_red>, s);
+i(<item:supplementaries:present_black>, s);
 
 // Fairy Lights
 i(<item:fairylights:letter_bunting>, "Places as an empty bunting. Shift-right click after placing to edit text. You can use several colors at once by highlighting your text and then selecting a color.");
