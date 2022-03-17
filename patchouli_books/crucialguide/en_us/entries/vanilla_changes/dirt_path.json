@@ -8,7 +8,7 @@
             "type": "spotlight",
             "item": "minecraft:grass_path",
             "title": "Dirt to Path",
-            "text": "You can now create $(item)Grass Path$() with $(item)Dirt$(). Further right clicking with any $(item)Hoe$() produces $(item)Shallow Dirt$(), which can be waterlogged.$(br2)Paths are also available for other grassy style blocks, and can be reverted back to dirt with a shovel."
+            "text": "You can now create $(item)Grass Path$() from $(item)Dirt$(). Further right clicking with a $(item)Hoe$() produces $(item)Shallow Dirt$(), which can be waterlogged.$(br2)Paths are also available for more soil blocks, such as $(item)Podzol$(), $(item)Mycelium$(), and $(item)Nether Nylium$()."
         }
 	]
 }

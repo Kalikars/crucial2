@@ -1,0 +1,4 @@
+execute at @p[nbt={Dimension:"minecraft:overworld"},gamemode=!survival,gamemode=!spectator] if score @p gamemodeEnforcer matches 1 run gamemode survival @p
+execute at @p[nbt={Dimension:"minecraft:the_nether"},gamemode=!survival,gamemode=!spectator] if score @p gamemodeEnforcer matches 1 run gamemode survival @p
+execute at @p[nbt={Dimension:"minecraft:the_end"},gamemode=!survival,gamemode=!spectator] if score @p gamemodeEnforcer matches 1 run gamemode survival @p
+execute at @p[nbt={Dimension:"overworldmirror:overworld"},gamemode=!creative,gamemode=!spectator] if score @p gamemodeEnforcer matches 1 run gamemode creative @p
