@@ -208,7 +208,7 @@ s = "This wood spawns in Flower Forests.";
 i(<item:environmental:wisteria_log>, s);
 i(<item:environmental:wisteria_planks>, s);
 
-s = "This wood spawns in watery areas. It does not have a sapling variation, so it's in limited supply.";
+s = "This wood spawns in watery areas and can be acquired by fishing. It does not have a sapling variation, so it's in limited supply.";
 i(<item:upgrade_aquatic:driftwood_log>, s);
 i(<item:upgrade_aquatic:driftwood_planks>, s);
 
@@ -733,6 +733,7 @@ i(<item:supplementaries:raked_gravel>, "Can be gotten by using a Hoe on Gravel. 
 i(<item:supplementaries:flower_box>, "Can be placed on the floor or the side of a block. Holds up to 3 flowers.");
 i(<item:minecraft:rotten_flesh>, "Can be used to turn a Skeleton Horse into a Zombie Horse, by feeding it an entire stack.");
 i(<item:supplementaries:slingshot>, "When used, fires the first block in your hotbar as a projectile. Try using it to throw torches!");
+i(<item:supplementaries:wrench>, "Can be used to rotate any directional facing block.");
 i(<item:minecraft:stick>, "Besides being your average stick, it can also be placed in the world as decoration.");
 
 s = "Can be placed atop a pole of sticks, and raised or lowered when right-clicked.";
@@ -951,3 +952,6 @@ i(<item:comforts:hammock_brown>, s);
 i(<item:comforts:hammock_green>, s);
 i(<item:comforts:hammock_red>, s);
 i(<item:comforts:hammock_black>, s);
+
+i(<item:moyai:moyai>, "Can be found in Mushroom Fields, and rarely in Beaches. Can fall and deal contact damage just like an Anvil.");
+i(<item:advancementframes:advancement_frame>, "Allows you to display one of your Advancements on the wall, floor, or ceiling.");
