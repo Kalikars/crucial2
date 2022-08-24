@@ -6,7 +6,7 @@
 	[worldgen.v2]
 		# 
 		#Prevents all worldgen added by Create from taking effect
-		disableWorldGen = false
+		disableWorldGen = true
 
 		[worldgen.v2.copper_ore]
 			# 
@@ -24,7 +24,7 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 2.0
+			frequency = 0
 
 		[worldgen.v2.weathered_limestone]
 			# 

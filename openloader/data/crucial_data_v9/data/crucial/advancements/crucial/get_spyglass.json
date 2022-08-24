@@ -2,7 +2,7 @@
   "parent": "minecraft:adventure/sleep_in_bed",
   "display": {
     "icon": {
-      "item": "farsight_spyglasses:spyglass"
+      "item": "cavesandcliffs:spyglass"
     },
     "title": {
       "translate": "advancement.crucial.get_spyglass"
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "farsight_spyglasses:spyglass"
+            "item": "cavesandcliffs:spyglass"
           }
         ]
       }
