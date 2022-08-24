@@ -97,8 +97,8 @@ var polished_basalt = <item:minecraft:polished_basalt>;
 var polished_packed_ice = <item:architects_palette:polished_packed_ice>;
 var potato = <item:minecraft:potato>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
-var raw_gold = <item:iron_and_gold:raw_gold>;
-var raw_iron = <item:iron_and_gold:raw_iron>;
+var raw_gold = <item:cavesandcliffs:raw_gold>;
+var raw_iron = <item:cavesandcliffs:raw_iron>;
 var redstone = <tag:items:forge:dusts/redstone>;
 var roasted_adzuki_beans = <item:neapolitan:roasted_adzuki_beans>;
 var rope = <item:farmersdelight:rope>;
@@ -258,10 +258,10 @@ craftingTable.addShapeless("recycle_paraglider", canvas * 4, [paraglider]);
 // Spyglass
 //craftingTable.removeRecipe(spyglass);
 //craftingTable.addShaped("spyglass_crystals", 
-		spyglass, 
-		[[air, gold_ingot, prismarine_crystals],
-		 [gold_ingot, prismarine_crystals, gold_ingot],
-		 [leather, gold_ingot, air]]);
+//		spyglass, 
+//		[[air, gold_ingot, prismarine_crystals],
+//		 [gold_ingot, prismarine_crystals, gold_ingot],
+//		 [leather, gold_ingot, air]]);
 
 // Better recipes for Chiseled Ore Bricks
 stoneCutter.removeRecipe(chiseled_coal_ore_bricks);

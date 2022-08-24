@@ -790,10 +790,10 @@ i(<item:fish_in_planks:tropical_fish_barrel>, s);
 i(<item:fish_in_planks:perch_barrel>, s);
 i(<item:fish_in_planks:koi_barrel>, s);
 
-i(<item:iron_and_gold:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
-i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+i(<item:cavesandcliffs:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+i(<item:cavesandcliffs:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
 
-i(<item:farsight_spyglasses:spyglass>, "Can be used to zoom in wherever you're looking at.");
+i(<item:cavesandcliffs:spyglass>, "Can be used to zoom in wherever you're looking at.");
 
 i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering Forests. Can be pollinated by bees during full moons to sprout apples.");
 
