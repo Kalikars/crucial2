@@ -108,7 +108,7 @@ var salmon = <item:minecraft:salmon>;
 var salmon_log = <item:architects_palette:salmon_log>;
 var soul_lantern = <item:minecraft:soul_lantern>;
 var spruce_sapling = <item:minecraft:spruce_sapling>;
-var spyglass = <item:farsight_spyglasses:spyglass>;
+//var spyglass = <item:farsight_spyglasses:spyglass>;
 var stick = <item:minecraft:stick>;
 var sticky_piston = <item:minecraft:sticky_piston>;
 var stone_bricks = <item:minecraft:stone_bricks>;
@@ -140,6 +140,8 @@ var orange_maple_sapling = <item:autumnity:orange_maple_sapling>;
 var blue_wisteria_sapling = <item:environmental:blue_wisteria_sapling>;
 var jacaranda_sapling = <item:abundance:jacaranda_sapling>;
 var waystone = <item:waystones:waystone>;
+var torch = <item:minecraft:torch>;
+var cc_candle = <item:cavesandcliffs:candle>;
 
 // Remove specific recipes
 craftingTable.removeByName("minecraft:lead");
@@ -254,8 +256,8 @@ craftingTable.addShaped("candelabra_candles",
 craftingTable.addShapeless("recycle_paraglider", canvas * 4, [paraglider]);
 
 // Spyglass
-craftingTable.removeRecipe(spyglass);
-craftingTable.addShaped("spyglass_crystals", 
+//craftingTable.removeRecipe(spyglass);
+//craftingTable.addShaped("spyglass_crystals", 
 		spyglass, 
 		[[air, gold_ingot, prismarine_crystals],
 		 [gold_ingot, prismarine_crystals, gold_ingot],
@@ -436,3 +438,10 @@ craftingTable.addShaped("waystone_player",
         [[ender_overseer],
         [heart_of_diamond],
         [stone_bricks]]);
+
+// Caves and Cliffs candle recipes
+craftingTable.removeRecipe(cc_candle);
+craftingTable.addShaped("cc_base_candle",
+		cc_candle,
+		[[torch],
+		[honeycomb]]);

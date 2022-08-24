@@ -958,3 +958,23 @@ i(<item:comforts:hammock_black>, s);
 
 i(<item:moyai:moyai>, "Can be found in Mushroom Fields, and rarely in Beaches. Can fall and deal contact damage just like an Anvil.");
 i(<item:advancementframes:advancement_frame>, "Allows you to display one of your Advancements on the wall, floor, or ceiling.");
+
+//Caves and Cliffs candles
+s = "Decorative candles from future versions. Does not work for influencing enchantments.";
+i(<item:cavesandcliffs:candle>, s);
+i(<item:cavesandcliffs:white_candle>, s);
+i(<item:cavesandcliffs:orange_candle>, s);
+i(<item:cavesandcliffs:magenta_candle>, s);
+i(<item:cavesandcliffs:light_blue_candle>, s);
+i(<item:cavesandcliffs:yellow_candle>, s);
+i(<item:cavesandcliffs:lime_candle>, s);
+i(<item:cavesandcliffs:pink_candle>, s);
+i(<item:cavesandcliffs:gray_candle>, s);
+i(<item:cavesandcliffs:light_gray_candle>, s);
+i(<item:cavesandcliffs:cyan_candle>, s);
+i(<item:cavesandcliffs:purple_candle>, s);
+i(<item:cavesandcliffs:blue_candle>, s);
+i(<item:cavesandcliffs:brown_candle>, s);
+i(<item:cavesandcliffs:green_candle>, s);
+i(<item:cavesandcliffs:red_candle>, s);
+i(<item:cavesandcliffs:black_candle>, s);

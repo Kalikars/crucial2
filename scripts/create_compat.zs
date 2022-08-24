@@ -31,23 +31,32 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 <recipetype:create:mixing>.removeByName("create:mixing/andesite_alloy_from_zinc");
 <recipetype:create:mixing>.removeRecipe(<item:create:brass_ingot>);
 <recipetype:create:mixing>.removeRecipe(<item:create:crushed_brass>);
-<recipetype:create:mixing>.addRecipe("quartz_brass_ingot", "heated", <item:create:brass_ingot> * 2, [<item:create:copper_ingot>, <item:minecraft:quartz>]);
+<recipetype:create:mixing>.addRecipe("quartz_brass_ingot", "heated", <item:create:brass_ingot> * 2, [<item:cavesandcliffs:copper_ingot>, <item:minecraft:quartz>]);
 <recipetype:create:mixing>.addRecipe("quartz_crushed_brass", "heated", <item:create:crushed_brass> * 2, [<item:create:crushed_copper_ore>, <item:minecraft:quartz>]);
 
 // Raw Ores =======================================================================================
-craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
-craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
-JEI.addInfo(<item:contenttweaker:raw_copper>, ["Drops from Copper Ore when mined without Silk Touch. Using Fortune increases the amount dropped."]);
+//craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
+//craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
+JEI.addInfo(<item:cavesandcliffs:raw_copper>, ["Drops from Copper Ore when mined without Silk Touch. Using Fortune increases the amount dropped."]);
 
-furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 200);
-blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 100);
+//furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 200);
+//blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 100);
 
-<recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
-<recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
-<recipetype:create:milling>.addRecipe("raw_copper_milling", [<item:create:crushed_copper_ore>], <item:contenttweaker:raw_copper>);
-<recipetype:create:crushing>.addRecipe("raw_iron_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_iron>);
-<recipetype:create:crushing>.addRecipe("raw_gold_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_gold>);
-<recipetype:create:crushing>.addRecipe("raw_copper_crushing", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 30, <item:minecraft:gravel> % 6], <item:contenttweaker:raw_copper>);
+//<recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
+//<recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
+//<recipetype:create:milling>.addRecipe("raw_copper_milling", [<item:create:crushed_copper_ore>], <item:contenttweaker:raw_copper>);
+
+<recipetype:create:crushing>.addRecipe("raw_iron_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 30, <item:minecraft:gravel> % 6], <item:cavesandcliffs:raw_iron>);
+<recipetype:create:crushing>.addRecipe("raw_gold_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 30, <item:minecraft:gravel> % 6], <item:cavesandcliffs:raw_gold>);
+<recipetype:create:crushing>.addRecipe("raw_copper_crushing", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 30, <item:minecraft:gravel> % 6], <item:cavesandcliffs:raw_copper>);
+
+// Caves and Cliffs Backport Edits  ===============================================================
+craftingTable.removeRecipe(<item:create:copper_ingot>);
+furnace.removeRecipe(<item:create:copper_ingot>);
+blastFurnace.removeRecipe(<item:create:copper_ingot>);
+craftingTable.removeRecipe(<item:create:copper_block>);
+<recipetype:create:compacting>.removeRecipe(<item:create:copper_block>);
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:create:copper_block>);
 
 // Caverns and Chasms Raw Ores ====================================================================
 
