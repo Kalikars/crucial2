@@ -48,7 +48,7 @@
 		{
 			"type": "item",
 			"item": {
-				"item": "farsight_spyglasses:spyglass"
+				"item": "cavesandcliffs:spyglass"
 			},
 			"framed": true,
 			"x": 24,
